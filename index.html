@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupak's Game</title>
+  <style>
+    body {
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #FEFCF6; /* User's preferred background color */
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .card-link {
+      text-decoration: none;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .card-desc {
+      font-size: 1rem;
+      color: #666;
+    }
+    
+    .card-parent{
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rupak's Game</h1>
+  <div class="card-parent">
+    <a href="https://audio-socket-test.onrender.com" target="_blank" class="card-link"> 
+        <div class="card">
+          <div class="card-title">Takacusaurus</div>
+          <div class="card-desc">Speak and send it to everyone</div>
+        </div>
+      </a>
+  </div>
+</body>
+</html>
